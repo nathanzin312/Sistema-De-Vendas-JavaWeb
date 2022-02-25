@@ -1,0 +1,46 @@
+.input{
+  display: flex;
+    align-items:center;
+      text-align: center;
+
+}
+.quadrado .itens .input{
+   padding-left: 250px;
+  padding-top: 100px;
+}
+.quadrado .itens .posicaobotao{
+padding-left: 290px;
+padding-top: 100px;
+}
+.quadrado{
+background-color: white;
+border-radius: 3px;
+height:80%;
+width:50%;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+box-shadow:0 10px 30px -10px;
+}
+
+body{
+  background-image: linear-gradient( to bottom, #1E90FF,#1E90FF );
+}
+
+label{
+  font-family: "verdana";
+  font-weight: bold;
+}
+ h3{
+    font-family: "verdana";
+   text-align: center;
+}
+.quadrado .itens .botao{
+    height:30px;
+    width:100px;
+    border-radius: 0px;
+    border-color: #8B8989;
+
+}

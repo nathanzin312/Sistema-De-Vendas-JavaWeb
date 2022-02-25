@@ -1,0 +1,62 @@
+
+
+body{
+  background-color: #1E90FF;
+}
+.quadrado .itens h2{
+   text-align: center;
+}
+.quadrado{
+  background-color: white;
+border-radius: 3px;
+height:500px;
+width:400px;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+box-shadow:0 7px 30px -10px;
+}
+.itens{
+  padding: 90px;
+}
+.quadrado .itens .usuario{
+    padding-top:50px;
+    display: flex;
+    align-items:center;
+}
+.quadrado .itens .senha{
+    margin-left: 10px;
+    display: flex;
+    align-items:center;
+}
+.quadrado .itens .idade{
+    margin-left: -5px;
+      padding:20px;
+    display: flex;
+    align-items:center;
+}
+.quadrado .itens .posicaobotao{
+      padding-top: 50px;
+      display: flex;
+      margin-left:55px;
+}
+.quadrado .itens .botao:hover{
+    height:30px;
+    width:100px;
+    border-radius: 0px;
+    background-color: #0066FF;
+    text-decoration-color: white;
+}
+.quadrado .itens .botao{
+    height:30px;
+    width:100px;
+    border-radius: 0px;
+
+}
+.quadrado .textinho{
+    padding-top:45px;
+     margin-left: 40px;
+
+}
